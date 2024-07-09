@@ -1,0 +1,31 @@
+Connect mysql with java.
+
+- install mysql.
+- download connector .jar file & set the class path.
+
+<Java> ================= [Driver] ===================<DB>
+
+Packages:
+- java.lang.*;
+	Class.forName("com.mysql.driver.Driver");
+
+- java.mysql.*;
+	Connection i
+	DriverManager c
+	PreparedStatement i
+	ResultSet i	
+===============================================
+- Load Driver.
+	Class.forName("com.mysql.driver.Driver");
+- Establish the connection with mysql
+	Connection interface
+	DriverManager class.
+
+- Give the query.
+	PreparedStatement interface
+
+- Execute the Query and contain the result.
+	ResultSet.
+================================================
+
+		
